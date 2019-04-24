@@ -33,8 +33,9 @@ jobs:
           name: Run rspec
           command: |
             bundle exec rspec --profile 10 \
-                              --format progress \
+                              --format RspecJunitFormatter \
                               --out test_results/rspec.xml \
+                              --format progress \
                               spec/**/*_spec.rb
       - store_test_results:
           path: test_results
