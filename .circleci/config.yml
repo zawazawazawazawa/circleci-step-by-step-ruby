@@ -1,4 +1,4 @@
-sversion: 2
+version: 2
 jobs:
   ruby-2.6.3:
     docker:
