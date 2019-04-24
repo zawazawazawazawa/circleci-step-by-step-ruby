@@ -34,7 +34,7 @@ jobs:
           command: |
             bundle exec rspec --profile 10 \
                               --format RspecJunitFormatter \
-                              --out test_results/rspec.xml \
+                              --out $CIRCLE_TEST_REPORTS/rspec.xml \
                               --format progress \
                               spec/**/*_spec.rb
       - store_test_results:
