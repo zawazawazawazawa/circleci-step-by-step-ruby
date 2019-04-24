@@ -37,6 +37,8 @@ jobs:
                               --out test_results/rspec.xml \
                               --format progress \
                               spec/**/*_spec.rb
+      - store_test_results:
+          path: test_results
 
   ruby-2.5.5:
     docker:
@@ -75,6 +77,8 @@ jobs:
                               --out test_results/rspec.xml \
                               --format progress \
                               spec/**/*_spec.rb
+      - store_test_results:
+          path: test_results
 
   ruby-2.4.6:
     docker:
@@ -113,6 +117,8 @@ jobs:
                               --out test_results/rspec.xml \
                               --format progress \
                               spec/**/*_spec.rb
+      - store_test_results:
+          path: test_results
 
 workflows:
   version: 2
