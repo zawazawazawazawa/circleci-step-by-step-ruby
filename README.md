@@ -1,13 +1,23 @@
-# CircleCI Demo Application: Ruby on Rails [![CircleCI](https://circleci.com/gh/CircleCI-Public/circleci-demo-ruby-rails.svg?style=svg)](https://circleci.com/gh/CircleCI-Public/circleci-demo-ruby-rails)
+# CircleCI Step by Step Application using Ruby
+[![CircleCI](https://circleci.com/gh/kurumai/circleci-step-by-step-ruby/tree/step2-docker-images.svg?style=svg)](https://circleci.com/gh/kurumai/circleci-step-by-step-ruby/tree/step2-docker-images)
 
-This is an example application showcasing how to run a Ruby on Rails app on CircleCI 2.0.
+This is an example application how to learn CircleCI step by step.
 
-You can follow along with this project by reading the [documentation](https://circleci.com/docs/2.0/language-ruby/).
+This application has the following branches: 
+
+- master
+- step1-1st-green-build
+- step2-docker-images
+- step3-workflows
+- step3-workflows-sequential
+- step4-run-test
+- step5-speed-up-cache
+- step5-speed-up-parallelism
+- step6-secrets
+- step7-orbs
 
 ## License
 
-Copyright (c) 2017 CircleCI
+Copyright © 2017 CircleCI
 
-Distributed under the MIT License. See the file COPYING.
-
-
+Distributed under the MIT license, see the file LICENSE.
